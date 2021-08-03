@@ -3,7 +3,7 @@
 
 # provider-hcloud-api
 
-Kubeform CRDs for [Terraform Hcloud Provider](https://github.com/hcloud/terraform-provider-hcloud)
+Kubeform CRDs for [Terraform Hetzner Cloud Provider](https://github.com/hetznercloud/terraform-provider-hcloud)
 
 ## Installation
 
