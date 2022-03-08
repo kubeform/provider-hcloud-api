@@ -92,7 +92,7 @@ func (r *BalancerNetwork) ValidateUpdate(old runtime.Object) error {
 		return err
 	}
 
-	for key := range balancernetworkForceNewList {
+	for key, _ := range balancernetworkForceNewList {
 		keySplit := strings.Split(key, "/*")
 		length := len(keySplit)
 		checkIfAnyDif := false
